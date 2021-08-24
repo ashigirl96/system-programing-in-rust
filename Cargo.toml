@@ -13,3 +13,5 @@ flate2 = "1.0.20"
 lib = { path = "./lib" }
 reqwest = "*"
 serde_json = "*"
+tokio = { version = "1", features = ["full"] }
+hyper = { version = "0.14", features = ["full"]}
